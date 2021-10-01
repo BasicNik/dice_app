@@ -55,7 +55,7 @@ class _MyAppState extends State<MyApp> {
                 child: Row(
                   children: [
                     Expanded(
-                      child: TextButton(
+                      child: FlatButton(
                         onPressed: () {
                           Diceface();
                         },
@@ -63,7 +63,7 @@ class _MyAppState extends State<MyApp> {
                       ),
                     ),
                     Expanded(
-                      child: TextButton(
+                      child: FlatButton(
                         child: Image.asset('images/dice$rightdice.png'),
                         onPressed: () {
                           Diceface();
