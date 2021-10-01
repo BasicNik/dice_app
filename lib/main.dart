@@ -63,7 +63,7 @@ class _MyAppState extends State<MyApp> {
                       ),
                     ),
                     Expanded(
-                      child: FlatButton(
+                      child: TextButton(
                         child: Image.asset('images/dice$rightdice.png'),
                         onPressed: () {
                           Diceface();
