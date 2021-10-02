@@ -27,7 +27,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.yellow,
         appBar: AppBar(
           backgroundColor: Colors.white,
           centerTitle: true,
@@ -55,7 +55,7 @@ class _MyAppState extends State<MyApp> {
                 child: Row(
                   children: [
                     Expanded(
-                      child: FlatButton(
+                      child: TextButton(
                         onPressed: () {
                           Diceface();
                         },
